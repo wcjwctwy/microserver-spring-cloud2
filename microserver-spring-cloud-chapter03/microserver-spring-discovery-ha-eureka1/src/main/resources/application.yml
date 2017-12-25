@@ -1,0 +1,17 @@
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: eureka1
+  client:
+    serviceUrl:
+      defaultZone: http://root:890610@eureka1:8762/eureka/
+security:
+  user:
+    password: 890610
+    name: root
+  basic:
+    enabled: true
+spring:
+  application:
+    name: eureka1
