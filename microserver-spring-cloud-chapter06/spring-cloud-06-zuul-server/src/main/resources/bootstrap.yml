@@ -1,0 +1,15 @@
+server:
+  port: 80
+spring:
+  application:
+    name: ZUUL-SERVER
+zuul:
+  ignoredServices: '*'
+  routes:
+    movie-server:
+      path: /movie/**
+      serviceId: MICRO-MOVIE-SERVER
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
