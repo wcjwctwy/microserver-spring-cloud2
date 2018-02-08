@@ -14,6 +14,7 @@
         <module>microserver-spring-cloud-chapter03</module>
         <module>microserver-spring-cloud-chapter04</module>
         <module>microserver-spring-cloud-chapter05</module>
+        <module>microserver-spring-cloud-chapter06</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -32,6 +33,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>

@@ -2,9 +2,9 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
-      profile: datasource
+      profile: datasource #可以添加多个
       label: master
-      name: com
+      name: config-cli-com #可以添加多个
 
   application:
-    name: datasource
+    name: config-cli

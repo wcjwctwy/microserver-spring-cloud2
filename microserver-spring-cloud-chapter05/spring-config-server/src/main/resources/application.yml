@@ -1,13 +1,13 @@
 
 spring:
   profiles:
-    active: native
+    active: native #配置本地目录
   cloud:
     config:
       server:
         native:
-          search-locations: classpath:/conf/,D:/temp/springconfig/
+          search-locations: classpath:/conf/,D:/temp/spring-config/ #具体的文件夹路径
   application:
-    name: config-server
+    name: config-server #服务名称
 server:
   port: 8888
