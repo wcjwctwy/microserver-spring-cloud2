@@ -15,6 +15,7 @@
         <module>microserver-spring-cloud-chapter04</module>
         <module>microserver-spring-cloud-chapter05</module>
         <module>microserver-spring-cloud-chapter06</module>
+        <module>microserver-spring-cloud-chapter07</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
