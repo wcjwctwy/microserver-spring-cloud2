@@ -14,6 +14,8 @@
     <modules>
         <module>spring-config-server</module>
         <module>spring-config-client</module>
+        <module>spring-config-eureka</module>
+        <module>spring-config-zookeeper</module>
     </modules>
     <dependencies>
 

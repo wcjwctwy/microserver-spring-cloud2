@@ -5,6 +5,14 @@ spring:
       profile: datasource #可以添加多个
       label: master
       name: config-cli-com #可以添加多个
+      discovery:
+        enabled: true
+        service-id: config-server
 
   application:
     name: config-cli
+#eureka
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:3830/eureka

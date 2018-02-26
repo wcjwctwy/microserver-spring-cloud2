@@ -1,0 +1,22 @@
+
+spring:
+  cloud:
+    zookeeper:
+      #ZooKeeper的连接字符串，如果是集群，逗号分隔节点，格式：ip:port[,ip2:port2,.....]
+      connect-string: 10.20.4.171:2181,10.20.4.172:2181,10.20.4.173:2181
+      config:
+        root: /wcj
+        enabled: true
+
+  application:
+    name: config-cli
+#eureka 配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:3830/eureka
+management:
+  security:
+    enabled: false
+server:
+  port: 8081

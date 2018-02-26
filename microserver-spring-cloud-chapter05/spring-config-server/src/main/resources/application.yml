@@ -11,3 +11,12 @@ spring:
     name: config-server #服务名称
 server:
   port: 8888
+
+#eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:3830/eureka
+management:
+  security:
+    enabled: false
